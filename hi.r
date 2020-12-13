@@ -2,6 +2,9 @@ library(ggplot2)
 library(gapminder)
 library(gt)
 
+
+
+
 gt(data=gapminder)
 
 p = ggplot(
@@ -13,6 +16,7 @@ p = ggplot(
         fill = continent
     )
 )
+
 
 figure = p + 
     geom_point() + 

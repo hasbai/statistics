@@ -1,1 +1,1 @@
-install.packages("gt")
+print(paste(as.character(1)+as.character(2))
